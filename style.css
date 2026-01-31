@@ -182,3 +182,69 @@ justify-content: flex-start;
     padding: 0.5rem 1rem;
     font-weight: bold;
 }
+/* =========================
+   MOBILE RESPONSIVE (ADD ONLY)
+   ========================= */
+@media (max-width: 768px) {
+
+    /* MENU */
+    .menu {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem 0;
+        gap: 0.5rem;
+    }
+
+    .links {
+        justify-content: center;
+        margin-right: 0;
+        flex-wrap: wrap;
+    }
+
+    /* HERO */
+    .style {
+        height: 60vh;
+        padding: 1rem;
+    }
+
+    .style-info {
+        font-size: 1.2rem;
+    }
+
+    /* ABOUT */
+    .about {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .about img {
+        height: auto;
+    }
+
+    .about-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* SERVICES */
+    .services {
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .services-cards img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* CONTACTS */
+    .contacts {
+        height: auto;
+        padding: 1.5rem 0;
+    }
+
+    .contacts input {
+        width: 80%;
+    }
+}
+
